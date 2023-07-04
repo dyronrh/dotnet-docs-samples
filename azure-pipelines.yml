@@ -8,7 +8,7 @@ trigger:
 variables:
   TargetFramework: 'net6.0'
   BuildConfiguration: 'Release'
-  DockerImageName: 'PROD_PROJECT_ID/CloudDemo'
+  DockerImageName: 'locate-me-device/CloudDemo'
 steps:
 - task: DotNetCoreCLI@2
   displayName: Publish
